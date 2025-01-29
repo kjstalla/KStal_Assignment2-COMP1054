@@ -1,0 +1,189 @@
+body { /* resets the margins */
+  margin: 0;
+  padding: 0;
+}
+
+.background-two,
+.background-three,
+.background-four,
+.background-five,
+.background-six,
+.background-seven,
+.background-eight { /* sets the backgroudn images */
+  background-size: cover; /* covers the area */
+  background-position: center; /* centers the image */
+  background-repeat: no-repeat; /* does not repeat the image */
+  background-attachment: scroll; /* scrolls with page */
+  margin: 0; 
+  padding: 0;
+}
+.background-two { /* retrieves each url for the background images */
+  background-image: url('../images/forest.jpeg');
+}
+
+.background-three {
+  background-image: url('../images/stars.jpeg');
+}
+
+.background-four {
+  background-image: url('../images/dark.webp');
+}
+
+.background-five {
+  background-image: url('../images/blue-sky.jpg');
+}
+
+.background-six {
+  background-image: url('../images/yellow-sunset.jpg'); 
+}
+
+.background-seven {
+  background-image: url('../images/clouds.jpg');
+}
+
+.background-eight {
+  background-image: url('../images/clouds.jpg');
+}
+
+.padding { /* defined padding div to set the area around each text inside the pictures */
+  padding: 50px;
+}
+
+.background-two > div > p { /* makes all paragraphs in the div elements that are a child of background-two white and adds a little text shadow */
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+.background-three > div > p { /* makes all paragraphs in the div elements that are a child of background-three white and adds a little text shadow */
+  color: white;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+.background-four p .highpitch {/* makes all paragraphs in the div elements that are a child of background-four and in the span class highpitch white and adds a little text shadow */
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+}
+.background-four > div > p {/* makes all paragraphs in the div elements that are a child of background-four white and adds a little text shadow */
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+header { /* styling for the header */
+    text-align: center;
+    line-height: 30px;
+    font-size: 50px;
+    font-family: "Fontdiner Swanky", serif; /* font #1 */
+    color: black;
+}
+
+main p { /* styling for the paragraphs in the main tag */
+    font-size: 35px;
+    text-align: center;
+    font-family: "Fontdiner Swanky", serif;
+    color: black;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+.scary { /* span styling class #1 */
+    font-family: "Eater", serif; /* font #2 */
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 75px;
+    color: black;
+    text-shadow: 2px 2px 4px black, 0 0 15px black;
+  }
+
+  .scary2 { /* span styling class #2 */
+    font-family: "Eater", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 75px;
+    color: red;
+    text-decoration: line-through;
+    text-shadow: 2px 2px 4px black, 0 0 15px red;
+  }
+
+audio { /* styling for the audio insert  */
+    display: block;
+    width: 80%;
+    max-width: 500px;
+    margin: 20px auto;
+    border: 2px solid #333; 
+    border-radius: 10px; /* rounds the corners of the border */
+    background-color: #fff;
+}
+
+.swearword { /* span styling class #3 */
+  font-family: inherit;
+  text-decoration: line-through; /* indicates swearword */
+  font-size: inherit;
+}
+
+.highpitch { /* span styling class #4 indicates that the singer is going high pitch */
+  font-family: "Lacquer", serif; /* font #3 */
+  font-weight: 400;
+  font-size: 35px;
+  text-align: center;
+  color: black;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25); /* subtle text shadow*/
+}
+
+.adlibEcho { /* span styling class #5 was used to give off a shadow effect */
+  font-family: "Eater", serif;
+  text-shadow: 
+  2px 2px 0px rgba(0, 0, 0, 0.4),
+  4px 4px 0px rgba(0, 0, 0, 0.3),
+  6px 6px 0px rgba(0, 0, 0, 0.2);
+}
+
+.large { /* span styling class #6 increased text size by 25px */
+  font-family: inherit;
+  font-size: 60px;
+}
+
+.large2 { /* span styling class #6 increased text size by 25px and added a underline */
+  font-family: inherit;
+  font-size: 60px;
+  text-decoration: wavy underline;
+}
+
+.xtralarge { /* span styling class #7 increased text size by 40px */
+  font-family: inherit;
+  font-size: 75px;
+}
+
+.small { /* span styling class #8 decreased text size by 10px */
+  font-family: inherit;
+  font-size: 25px;
+}
+
+.above { /* span styling class #9 added a overhead line to the text */
+  font-size: inherit;
+  font-family: inherit;
+  text-decoration: overline;
+}
+
+.radioactive { /* span styling class #10 creating green melting text */
+  font-family: "Nosifer", serif; /* font #4 */
+  color: lime;
+}
+
+.melt { /* span styling class #11 creating black larger melting text */
+  font-family: "Nosifer", serif;
+  color: black;
+  font-size: 50px;
+}
+
+.underline { /* span styling class #12 creating underlined text */
+  text-decoration: underline;
+}
+
+.glitch { /* span styling class #13 creating larger text with a glitch to it */
+  font-size: 45px;
+  font-family: "Rubik Glitch", serif; /* font #5 */
+}
+footer { /* footer styling to add a font and center the text */
+  text-align: center;
+  font-family: "Fontdiner Swanky", serif;
+}
